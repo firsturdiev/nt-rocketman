@@ -1,7 +1,9 @@
+import Input from "./components/Input/Input";
+
 function App() {
   return (
-    <h1>Hello World!</h1>
-  )
+    <Input className="input--red" placeholder="Type here to search..."></Input>
+  );
 }
 
 export default App;

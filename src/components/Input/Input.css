@@ -1,0 +1,27 @@
+/* INPUT */
+
+.input {
+  display: block;
+}
+
+.input__field {
+  display: block;
+  padding: 12px 15px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: none;
+  font-size: 12px;
+  line-height: 15px;
+  background: #fff;
+}
+
+.input__label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input__field::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* INPUT--ICON */
