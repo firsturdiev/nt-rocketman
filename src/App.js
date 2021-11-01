@@ -1,4 +1,3 @@
-import Input from "./components/Input/Input";
 import Login from "./screens/Login";
 
 function App() {
