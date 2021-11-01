@@ -1,23 +1,18 @@
-/* INPUT */
-
 .input {
   display: block;
 }
 
 .input__field {
+  width: 100%;
   display: block;
   padding: 12px 15px;
+  font-size: 12px;
+  font-weight: inherit;
+  line-height: 15px;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   outline: none;
-  font-size: 12px;
-  line-height: 15px;
-  background: #fff;
-}
-
-.input__label {
-  display: block;
-  margin-bottom: 10px;
+  background-color: #fff;
 }
 
 .input__field::placeholder {
@@ -25,3 +20,48 @@
 }
 
 /* INPUT--ICON */
+
+.input--icon {
+  position: relative;
+}
+
+.input--icon .input__field {
+  padding: 16px;
+  padding-left: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  border: 1px solid #ddd;
+}
+
+.input--icon .input__field::placeholder {
+  color: rgba(27, 27, 27, 0.4);
+}
+
+.input--icon::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.input--icon--user::before {
+  background-image: url("../../assets/img/icon-user.svg");
+}
+
+.input--icon--lock::before {
+  background-image: url("../../assets/img/icon-lock.svg");
+}
+
+/* INPUT--LABEL */
+
+.input--label .input__label {
+  display: inline-block;
+  margin-bottom: 10px;
+}

@@ -1,10 +1,10 @@
 import './Input.css';
 
-function Input({ className, placeholder }) {
+function Input({ className, dataLabel, ...props }) {
   return (
     <label className={'input ' + (className || '')}>
-      <span className="input__label">Name</span>
-      <input className="input__field" placeholder={placeholder} />
+      <span className="input__label" hidden={!dataLabel}>{dataLabel}</span>
+      <input className="input__field" type="text" {...props} />
     </label>
   );
 }

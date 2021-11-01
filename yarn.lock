@@ -4056,6 +4056,13 @@
   dependencies:
     "ms" "2.1.2"
 
+"debug@~3.1.0":
+  "integrity" "sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g=="
+  "resolved" "https://registry.npmjs.org/debug/-/debug-3.1.0.tgz"
+  "version" "3.1.0"
+  dependencies:
+    "ms" "2.0.0"
+
 "debug@2.6.9":
   "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
   "resolved" "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz"
@@ -7538,6 +7545,11 @@
   "resolved" "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
   "version" "1.0.4"
 
+"mkdirp@~1.0.4":
+  "integrity" "sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw=="
+  "resolved" "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
+  "version" "1.0.4"
+
 "move-concurrently@^1.0.1":
   "integrity" "sha1-viwAX9oy4LKa8fBdfEszIUxwH5I="
   "resolved" "https://registry.npmjs.org/move-concurrently/-/move-concurrently-1.0.1.tgz"
@@ -7747,6 +7759,13 @@
     "prepend-http" "^1.0.0"
     "query-string" "^4.1.0"
     "sort-keys" "^1.0.0"
+
+"normalize@^0.3.1":
+  "integrity" "sha1-XfSj/hbALmH7Mf8vtEigf0pAhKY="
+  "resolved" "https://registry.npmjs.org/normalize/-/normalize-0.3.1.tgz"
+  "version" "0.3.1"
+  dependencies:
+    "stylus" "*"
 
 "npm-run-path@^2.0.0":
   "integrity" "sha1-NakjLfo11wZ7TLLd8jV7GHFTbF8="
@@ -9928,7 +9947,7 @@
   dependencies:
     "ret" "~0.1.10"
 
-"safer-buffer@^2.0.2", "safer-buffer@^2.1.0", "safer-buffer@>= 2.1.2 < 3", "safer-buffer@~2.1.0":
+"safer-buffer@^2.0.2", "safer-buffer@^2.1.0", "safer-buffer@^2.1.2", "safer-buffer@>= 2.1.2 < 3", "safer-buffer@~2.1.0":
   "integrity" "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg=="
   "resolved" "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
   "version" "2.1.2"
@@ -10716,6 +10735,20 @@
     "browserslist" "^4.0.0"
     "postcss" "^7.0.0"
     "postcss-selector-parser" "^3.0.0"
+
+"stylus@*":
+  "integrity" "sha512-MuzIIVRSbc8XxHH7FjkvWqkIcr1BvoMZoR/oFuAJDlh7VSaNJzrB4uJ38GRQa+mWjLXODAMzeDe0xi9GYbGwnw=="
+  "resolved" "https://registry.npmjs.org/stylus/-/stylus-0.55.0.tgz"
+  "version" "0.55.0"
+  dependencies:
+    "css" "^3.0.0"
+    "debug" "~3.1.0"
+    "glob" "^7.1.6"
+    "mkdirp" "~1.0.4"
+    "safer-buffer" "^2.1.2"
+    "sax" "~1.2.4"
+    "semver" "^6.3.0"
+    "source-map" "^0.7.3"
 
 "supports-color@^5.3.0":
   "integrity" "sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow=="

@@ -1,8 +1,9 @@
 import Input from "./components/Input/Input";
+import Login from "./screens/Login";
 
 function App() {
   return (
-    <Input className="input--red" placeholder="Type here to search..."></Input>
+    <Login />
   );
 }
 
