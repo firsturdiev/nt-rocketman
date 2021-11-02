@@ -1,0 +1,103 @@
+.span {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  padding: 8px 15px;
+  border-radius: 60px;
+}
+
+.span.span__enabled {
+  color: #008C06;
+  background-color: #D9FFDA;
+}
+
+.span.span__finish {
+  color: #008C06;
+  background-color: #D9FFDA;
+}
+
+.span.span__disabled {
+  color: #BE0707;
+  background-color: #FFD9D9;
+}
+
+.span.span__cancel {
+  color: #BE0707;
+  background-color: #FFD9D9;
+}
+
+.span.span__accept {
+  color: #004D92;
+  background-color: #D9EDFF;
+}
+
+.span.span__order {
+  color: #937200;
+  background-color: #FCF1C9;
+}
+
+.span.span__delivery {
+  color: #320088;
+  background-color: #E7D9FF;
+}
+
+.span.span__disabled {
+  color: #BE0707;
+  background-color: #FFD9D9;
+}
+
+.span.span__number {
+  color: #000;
+  background-color: #E7E7E7;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.span.span__study {
+  background: #34B670;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 7px 8px;
+}
+
+.span.span__work {
+  background: #ABC24E;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 7px 8px;
+}
+
+.span.span__dye {
+  background: #FF4040;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 7px 8px;
+}
+
+.span.span__walk {
+  background: #3C8CEA;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 7px 8px;
+}
