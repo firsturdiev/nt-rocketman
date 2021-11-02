@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #2E3444;
+  padding: 15px 30px;
+}
+
+.header__logo-link {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 62px;
+}
+
+.header__logo-img {
+  display: block;
+}
+
+.header__search-lable {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 168px;
+  padding: 12px 20px;
+  width: 400px;
+}
+
+.header__search-input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.header__search-lable::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../assets/img/search.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-left: 10px;
+}
+
+.header__user-link {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__user-link::before {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-image: url(../../assets/img/user.svg),
+  linear-gradient(#fff, #fff);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto ,contain;
+  margin-right: 9px;
+}
+
+.header__user-link::after {
+  content: "";
+  display: block;
+  width: 9px;
+  height: 7px;
+  border-radius: 50%;
+  background-image: url(../../assets/img/strelka.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-left: 8px;
+}
