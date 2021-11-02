@@ -1,10 +1,8 @@
-import Toggle from "./components/Toggle/Toggle";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <>
-      <Toggle />
-    </>
+    <Header />
   );
 }
 

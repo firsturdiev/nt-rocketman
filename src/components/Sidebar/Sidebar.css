@@ -4,7 +4,7 @@
   padding-top: 48px;
   padding-bottom: 40px;
   background-color: #2e3444;
-  box-shadow: inset -1px 0 0 #303030;
+  border-right: 1px solid #303030;
 }
 
 .menu {
