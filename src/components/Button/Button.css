@@ -1,0 +1,46 @@
+.btn {
+  padding: 16px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #2e3444;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  opacity: 0.6;
+}
+
+/* MODIFICATORS */
+
+.btn--green {
+  background-color: #3eb597;
+}
+
+.btn--add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 26px;
+}
+
+.btn--add::after {
+  content: "";
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background-image: url("../../assets/img/icon-add.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn--block {
+  width: 100%;
+}

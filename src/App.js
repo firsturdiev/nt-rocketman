@@ -1,18 +1,9 @@
-import Header from "./components/header/header";
-import Section from "./components/main/main";
+import Login from "./screens/Login";
 
 function App() {
   return (
-    <div className="container"> 
-      <Header />
-
-      <main className="main">
-        <Section />
-
-
-      </main>
-    </div>
-  )
-}
+    <Login />
+  );
+    }
 
 export default App;
