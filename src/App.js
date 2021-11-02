@@ -1,9 +1,11 @@
-import Login from "./screens/Login";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 function App() {
   return (
-    <Login />
+    <main className="site-content">
+      <Sidebar></Sidebar>
+    </main>
   );
-    }
+}
 
 export default App;
