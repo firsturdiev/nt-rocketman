@@ -1,10 +1,10 @@
-import Sidebar from "./components/Sidebar/Sidebar";
+import Toggle from "./components/Toggle/Toggle";
 
 function App() {
   return (
-    <main className="site-content">
-      <Sidebar></Sidebar>
-    </main>
+    <>
+      <Login />
+    </>
   );
 }
 
