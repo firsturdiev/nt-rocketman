@@ -1,6 +1,5 @@
 import "./toggle.css"
 function Toggle(){
-
   return (
     <>
       <label class="switch">
