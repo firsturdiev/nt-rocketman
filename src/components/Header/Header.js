@@ -17,7 +17,7 @@ const Header = () => {
             <Button className="search-form__btn" type="submit" aria-label="Search for users"></Button>
           </Input>
         </form>
-
+        
         <ProfileModal className="site-header__profile-modal" userName="John Doe" />
       </div>
     </header>

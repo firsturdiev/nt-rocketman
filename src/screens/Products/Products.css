@@ -1,0 +1,9 @@
+.site-content {
+  display: flex;
+}
+
+.table {
+  margin-left: 30px;
+  margin-top: 70px;
+  flex-grow: 1;
+}
