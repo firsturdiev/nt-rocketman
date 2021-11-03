@@ -19,6 +19,10 @@
 
 /* MODIFICATORS */
 
+.btn--block {
+  width: 100%;
+}
+
 .btn--green {
   background-color: #3eb597;
 }
@@ -41,6 +45,11 @@
   background-position: center;
 }
 
-.btn--block {
-  width: 100%;
+.btn--edit {
+  border-radius: 50%;
+  background-color: #008c06;
+  background-image: url("../../assets/img/icon-edit.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
 }

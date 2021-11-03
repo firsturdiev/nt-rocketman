@@ -1,4 +1,5 @@
 import Header from '../../components/Header/Header';
+import Pagination from '../../components/Pagination/Pagination';
 import Sidebar from '../../components/Sidebar/Sidebar';
 import Table from '../../components/Table/Table';
 import './Products.css';
@@ -12,7 +13,9 @@ function Products() {
         <Sidebar />
         <div className="table-wrapper">
           <Table />
-          <div className="pagination"></div>
+          <div className="pagination-wrapper">
+            <Pagination />
+          </div>
         </div>
       </main>
     </>

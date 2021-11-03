@@ -27,7 +27,7 @@ function Table() {
         </tr>
 
         <tr className="table__content-row">
-          <td className="table__content-cell">Fast-food</td>
+          <td className="table__content-cell">Gullar</td>
           <td className="table__content-cell">2</td>
           <td className="table__content-cell">
             <Button className="btn--edit" aria-label="Edit the product"></Button>
@@ -38,7 +38,7 @@ function Table() {
         </tr>
 
         <tr className="table__content-row">
-          <td className="table__content-cell">Fast-food</td>
+          <td className="table__content-cell">Texnika</td>
           <td className="table__content-cell">2</td>
           <td className="table__content-cell">
             <Button className="btn--edit" aria-label="Edit the product"></Button>
