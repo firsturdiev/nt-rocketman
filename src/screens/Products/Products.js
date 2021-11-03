@@ -10,7 +10,10 @@ function Products() {
 
       <main className="site-content">
         <Sidebar />
-        <Table />
+        <div className="table-wrapper">
+          <Table />
+          <div className="pagination"></div>
+        </div>
       </main>
     </>
   );

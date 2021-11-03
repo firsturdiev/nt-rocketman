@@ -2,8 +2,19 @@
   display: flex;
 }
 
-.table {
-  margin-left: 30px;
+.table-wrapper {
+  margin: 30px;
   margin-top: 70px;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d2d2d2;
+  border-radius: 10px;
+}
+
+.table-wrapper .table {
+}
+
+.table-wrapper .pagination {
+  height: 60px;
 }
