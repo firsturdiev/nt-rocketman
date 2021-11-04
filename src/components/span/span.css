@@ -52,6 +52,9 @@
   background-color: #E7E7E7;
   border-radius: 50%;
   padding: 15px;
+  text-align: center;
+  width: 45px;
+  height: 45px;
 }
 
 .span.span__study {
