@@ -1,0 +1,45 @@
+.dropdown {
+  position: relative;
+  z-index: 1;
+}
+
+.profile-modal__btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.profile-modal__btn-user {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.profile-modal__btn-user::before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-image: url(../../assets/img/icon-user.svg),
+    linear-gradient(#fff, #fff);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.profile-modal__btn-user::after {
+  content: "";
+  width: 10px;
+  height: 7px;
+  background-image: url(../../assets/img/icon-arrow-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-left: 9px;
+}
+
+.dropdown--open {
+  display: block;
+}
