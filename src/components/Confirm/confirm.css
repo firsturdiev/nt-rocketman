@@ -1,0 +1,38 @@
+.confirm{
+  width: 306px;
+  height: 100px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.confirm__content{
+  display: flex;
+  flex-direction: column;
+}
+
+.btns-wrapper{
+  width: auto;
+  margin-left: auto;
+  align-self: flex-end;
+}
+
+.confirm__txt{
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.confirm__btn{
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
