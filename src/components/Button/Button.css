@@ -53,3 +53,46 @@
   background-position: center;
   background-size: 20px;
 }
+
+.btn--close {
+  border-radius: 0;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-image: url("../../assets/img/icon-close.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: auto;
+  margin-bottom: auto;
+}
+
+.btn--logout {
+  position: absolute;
+  display: none;
+  left: -20px;
+  top: 50px;
+  width: 120%;
+  padding: 12px 28px;
+  background-color: #fff;
+}
+
+.btn-logout {
+  display: block;
+}
+
+.btn--logout__user {
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.btn--logout__user::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url(../../assets/img/icon-logout.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 10px;
+}

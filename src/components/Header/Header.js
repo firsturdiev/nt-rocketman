@@ -1,7 +1,7 @@
 import Logo from "../../assets/img/logo-captioned.svg";
 import Input from '../Input/Input';
 import Button from '../Button/Button';
-import ProfileModal from "../ProfileModal/ProfileModal";
+import ProfileModal from "../Dropdown/Dropdown";
 import "./Header.css";
 
 const Header = () => {
